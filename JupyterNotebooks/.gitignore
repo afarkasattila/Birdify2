@@ -1,0 +1,74 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @afarkasattila Sign out
+274
+5,252 2,314 jupyter/notebook
+ Code  Issues 1,262  Pull requests 66  Projects 8  Insights
+notebook/.gitignore
+605dfb8  22 days ago
+@takluyver takluyver Convert multiselect test to Selenium
+@minrk @jdfreder @takluyver @willingc @fperez @ellisonbg @Carreau @blink1073 @rgbkrk @mattvonrocketstein @msabramo @gnestor @JCEmmons @bfroehle @cowlicks @jianzi123
+     
+44 lines (40 sloc)  607 Bytes
+MANIFEST
+build
+dist
+_build
+docs/man/*.gz
+docs/source/api/generated
+docs/source/config.rst
+docs/gh-pages
+notebook/i18n/*/LC_MESSAGES/*.mo
+notebook/i18n/*/LC_MESSAGES/nbjs.json
+notebook/static/components
+notebook/static/style/*.min.css*
+notebook/static/*/js/built/
+notebook/static/*/built/
+notebook/static/built/
+notebook/static/*/js/main.min.js*
+notebook/static/lab/*bundle.js
+node_modules
+*.py[co]
+__pycache__
+*.egg-info
+*~
+*.bak
+.ipynb_checkpoints
+.tox
+.DS_Store
+\#*#
+.#*
+.coverage
+.pytest_cache
+src
+
+*.swp
+*.map
+.idea/
+Read the Docs
+config.rst
+
+/.project
+/.pydevproject
+
+package-lock.json
+geckodriver.log
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
